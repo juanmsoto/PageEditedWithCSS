@@ -1,0 +1,177 @@
+* {
+	font-family: 'Poppins', sans-serif;
+	background: #dfe3ee;
+	font-size: 10px;
+}
+
+body {
+	padding-top: 23em;
+}
+
+*::selection {
+	background: #000;
+	color: #fff;
+}
+
+.div-header {
+	width: 130.8em;
+	height: ;
+	padding: 2em;
+	background: #71c7ec;
+	border: 1em outset #189ad3;
+	box-shadow: 1em 1em .7em 0 black;
+	position: relative;
+	margin-top: -21em;
+	margin-left: 2em;
+}
+
+.div-header__h1 {
+	background: #71c7ec;
+	font-size: 6em;
+	
+}
+
+.div-header__nav {
+	background: #71c7ec;
+	float: right;
+	position: absolute;
+	top: 7em;
+	right: 4em;
+
+}
+
+.div-header__nav nav a img {
+	width: 5em;
+	height: 5em;
+	outline: .7em outset #189ad3;
+	box-shadow: .8em 1em .5em 0 black;
+	opacity: .78328183;
+}
+
+.div-article {
+	padding: 2em;
+	margin-left: 5em;
+	margin-bottom: 3em;
+	margin-top: 3em;
+	background: #71c7ec;
+	border: 1em outset #189ad3;
+	width: 105em;
+	height: 30em;
+	box-shadow: 1em 1em .7em 0 black;
+
+}
+
+.div-article2 {
+	padding: 2em;
+	margin-left: 5em;
+	background: #71c7ec;
+	border: 1em outset #189ad3;
+	width: 105em;
+	height: 30em;
+	box-shadow: 1em 1em .7em 0 black;
+
+}
+
+
+.div-form {
+	margin: 1em;
+	border: 1em outset #189ad3;
+	position: absolute;
+	background: #189ad3;
+	font-size: 1.6em;
+	width: 34em;
+
+}
+
+
+
+.div-form__input {
+	transition: background 0.4s, color 0.4s;
+	background: #dfe3ee;
+	border: .3em outset #189ad3;
+	border-right: .3em solid #189ad3;
+	width: 25em;
+}
+
+.div-form__input:hover {
+	background:	#999999;
+	color: #fff;
+}
+
+
+.div-form__submit {
+	margin-left: 2em;
+	transition: background 0.4s, color 0.4s;
+	background: #dfe3ee;
+	border-bottom: .3em outset #189ad3;
+	width: 4em;
+
+}
+
+.div-form__submit:hover {
+	background:	#999999;
+	color: #fff;
+}
+
+
+.div-article__h2 {
+	font-size: 5em;
+	padding-bottom: .1em;
+	background: #71c7ec;
+}
+
+.div-article2__h2 {
+	background: #71c7ec;
+	font-size: 5em;
+	padding-bottom: .1em;
+}
+
+.div-article__p {
+	font-size: 1.9em;
+	background: #71c7ec;
+}
+
+.div-article2__p {
+	font-size: 1.9em;
+	background: #71c7ec;
+}	
+
+.aside {
+	position: absolute;
+	width: 13.98%;
+	right: 3.8em;
+	top: 25.9em;
+	border: 1em outset #189ad3;
+	box-shadow: 1em 1em .7em 0 black;
+
+
+}
+
+.aside__h3 {
+	font-size: 2.5em;
+	background: #71c7ec;
+}
+
+.aside__p {
+	font-size: 1.545555555555555555555em;
+	background: #71c7ec;
+}
+
+.footer {
+	margin: 10em auto;
+	height: 4em;
+	width: 30em;
+	padding: 1em;
+	text-align: center;
+	transition: all 1s;
+	font-size: 1.7em;
+	
+}
+
+.footer:hover {
+	outline: .4em outset #189ad3;
+	background: #71c7ec;
+	width: 30em;
+	box-shadow: 1em 1em .7em 0 black;
+
+}
